@@ -1,0 +1,4 @@
+1- .HTACCESS
+2- application->config.php->26
+3-change database name
+4. use question mark(?) on .htaccess->line 6->RewriteRule ^(.*)$ index.php?/$1 [L]
